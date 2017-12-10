@@ -17,10 +17,10 @@ function logWhisper(string) {
 // == means checks for comparison to see if equal in value, but does not check to see if equal in type. (x=5 means  x=="5" is true)  
 
 function sayHiToGrandma(string) {
-if (string == string.toLowerCase) {
+if (string == string.toLowerCase()) {
   return "I can\'t hear you!";}
   
-if (string == string.toUpperCase) {
+if (string == string.toUpperCase()) {
   return  "YES INDEED!";}
 }
 
